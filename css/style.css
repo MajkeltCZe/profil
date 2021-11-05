@@ -1,0 +1,31 @@
+.container-fluid {
+
+margin: 5% 17% !important;
+
+
+}
+
+
+
+img {
+
+width: 300px !important;
+height: 300px !important;
+
+
+
+}
+
+.carousel-inner {
+
+    width: 300px !important;
+    height: 300px !important;
+
+
+}
+
+.carousel-control-next-icon {
+    position: absolute !important;
+    margin-right: 280px !important;
+  
+}
