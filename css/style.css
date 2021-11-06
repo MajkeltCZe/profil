@@ -1,31 +1,113 @@
-.container-fluid {
 
-margin: 5% 17% !important;
+body {
 
+    background-image: linear-gradient(to bottom right, rgb(214, 214, 214),#fffdfd);
 
 }
+main {
+    width: 1200px;
+    margin: 50px auto; 
+    
+    
+}
 
+header {
+    background-color: rgb(17, 0, 255);
+    background-image: linear-gradient(rgb(0, 0, 255),rgb(0, 0, 216),#001d6b);
+    padding: 18px;
+    text-align: center;
 
+color: aliceblue;
+}
 
-img {
+a > img {
 
 width: 300px !important;
 height: 300px !important;
-
-
-
-}
-
-.carousel-inner {
-
-    width: 300px !important;
-    height: 300px !important;
+margin-left: 40% ;
 
 
 }
 
-.carousel-control-next-icon {
-    position: absolute !important;
-    margin-right: 280px !important;
+
+.ml-6 {
+margin-left: 30% ;
+
+
+}
+
+
+div.gallery {
+    margin: 5px;
+    
+    float: left;
+    width: 24%;
+  }
   
+  
+  div.gallery img {
+    
+ box-shadow: rgb(29, 29, 29) 5px 5px 10px;
+  }
+  
+ 
+
+
+
+.btn:hover {
+
+  color: #f7f7f7;
+    background-color: rgb(0, 0, 216);
+
+}
+    
+
+
+  
+
+.btn-primary {
+
+background-color: rgb(17, 0, 255);
+
+
+
+}
+
+
+
+.clear {
+    clear:both;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    main {
+
+        width:70%;
+    }
+
+    div.gallery {
+width: 30%;
+
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+  
+    div.gallery {
+width: 45%;
+
+    }
+
+}
+
+
+@media only screen and (max-width: 500px) {
+  
+    div.gallery {
+width:100%;
+
+    }
+
 }
