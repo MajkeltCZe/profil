@@ -20,6 +20,36 @@ header {
 color: aliceblue;
 }
 
+footer {
+
+    background-image: linear-gradient(rgb(0, 0, 255),rgb(0, 0, 216),#001d6b);
+font-size: 20px;
+
+}
+
+
+ footer  a {
+
+   color: aliceblue;
+text-decoration: underline;
+
+}
+
+a:hover {
+
+    color: rgb(185, 182, 182);
+
+
+}
+
+
+.mt-6 {
+
+margin-top: 90px;
+
+
+}
+
 a > img {
 
 width: 300px !important;
