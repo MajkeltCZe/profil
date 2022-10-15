@@ -22,14 +22,19 @@
     </header>
 
     <main>
+       
+       
         <div class="text-center">
-
+            <button id="button" class="btn btn-danger">dark mode</button>
             <p>Vítejte na mé profilové stránce. </p>
             <p>Naleznete zde mé školní práce. Některe webové stránky nelze navštívit, protože ještě nejsou dokončené.
                 Informace o mě v <a class="link" href="#inf">zápatí</a>.</p>
 
         </div>
         <hr>
+
+
+
 
         <h2 class="mt-5">Dokončené webové stránky</h2>
         <!-- Programy a data -->
@@ -83,7 +88,7 @@
 
         <div class="row mt-5">
             <!--PunkvaTech-->
-            <div class="col-lg-5 offset-lg-1">
+            <div class="col-lg-4">
                 <div class="gallery">
                     <a data-lightbox="ptech" href="img/ptech.jpg">
                         <img src="img/ptech1.jpg" alt="PunkvaTech" title=" Stránka o PunkvaTech">
@@ -98,7 +103,7 @@
 
 
             <!--Základy javascriptu-->
-            <div class="col-lg-4 offset-lg-1">
+            <div class="col-lg-4 ">
                 <div class="gallery">
                     <a data-lightbox="js" href="img/js.jpg">
                         <img src="img/js1.jpg" alt="js" title="Stránka o zákadech JavaScriptu">
@@ -110,6 +115,21 @@
             </div>
 
 
+            <div class="col-lg-4 ">
+                <div class="gallery">
+                    <a data-lightbox="cube" href="img/cube.jpg">
+                        <img src="img/cube1.jpg" alt="Kostka" title="Hra - Kostka">
+                    </a>
+                </div>
+
+                <div class="clear"></div>
+                <a class="btn btn-primary ml-6" href="https://majkeltcze.github.io/kostka/" target="_blank"
+                role="button">Navštívit stránku</a>
+
+            </div>
+
+
+
 
         </div>
 
@@ -119,17 +139,7 @@
 
         <h2>Nedokončené webové stránky</h2>
         <div class="row mt-5">
-            <div class="col-lg-5 offset-lg-1">
-                <div class="gallery">
-                    <a data-lightbox="cube" href="img/cube.jpg">
-                        <img src="img/cube1.jpg" alt="Kostka" title="Hra - Kostka">
-                    </a>
-                </div>
-
-                <div class="clear"></div>
-                <button type="button" class="btn btn-info ml-6">Nelze navštívit stránku</button>
-
-            </div>
+          
 
             <div class="col-lg-4 offset-lg-1">
                 <div class="gallery">
@@ -180,7 +190,9 @@
 
         </div>
     </footer>
-    
+    <script src="script.js">
+        
+    </script>
     <script src="lightbox/js/lightbox-plus-jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
